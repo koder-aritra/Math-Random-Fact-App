@@ -1,5 +1,6 @@
 {
   "name": "math-random-app",
+  "homepage": "https://koder-aritra.github.io/math-random-fact-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
