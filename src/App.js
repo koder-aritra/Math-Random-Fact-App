@@ -21,8 +21,6 @@ function App() {
     };
 
     axios.request(options).then(function (response) {
-      console.log(response.data.text);
-      console.log(response.data.number);
       setNumber(response.data.number);
       setText(response.data.text);
     }).catch(function (error) {
